@@ -1,0 +1,12 @@
+---
+name: frisk1
+searches:
+- name: d1
+  tags:
+    tags.app: postman
+- name: d2
+  tags:
+    tags.app: postman
+search_results: {}
+formula_temp: ({{index . "d1"}} / {{index . "d2"}}) * 2
+threshold: 2
