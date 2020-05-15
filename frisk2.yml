@@ -9,5 +9,5 @@ searches:
   tags:
     tags.app: dude
 search_results: {}
-formula_temp: {{index . "pass"}} * 100
+formula_temp: {{index . "passing"}} * 100
 threshold: 90
