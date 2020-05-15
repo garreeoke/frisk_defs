@@ -10,4 +10,5 @@ searches:
     tags.app: dude
 search_results: {}
 formula_temp: ({{index . "pass"}} * 100 / {{index . "total"}})
-threshold: 2
+operator: lt
+threshold: 50
