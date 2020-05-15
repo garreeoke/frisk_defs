@@ -1,7 +1,7 @@
 ---
 name: frisk2
 searches:
-- name: pass
+- name: passing
   tags:
     tags.app: dude
     tags.result: pass
