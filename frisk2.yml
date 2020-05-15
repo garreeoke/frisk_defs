@@ -1,0 +1,13 @@
+---
+name: frisk1
+searches:
+- name: failures
+  tags:
+    tags.app: dude
+    tags.result: pass
+- name: total
+  tags:
+    tags.app: dude
+search_results: {}
+formula_temp: {{index . "pass"}} * 100 / {{index . "total"}} 
+threshold: 90
