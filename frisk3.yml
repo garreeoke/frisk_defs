@@ -1,14 +1,14 @@
 ---
-name: frisk1
+name: frisk3
 searches:
-- name: d1
+- name: what
   tags:
-    tags.app: postman
+    tags.app: dude
     tags.result: fail
-- name: d2
+- name: ever
   tags:
-    tags.app: postman
+    tags.app: dude
     tags.app: pass
 search_results: {}
-formula_temp: ({{index . "d1"}} * {{index . "d2"}}) * 2
+formula_temp: ({{index . "what"}} * {{index . "ever"}})
 threshold: 2
