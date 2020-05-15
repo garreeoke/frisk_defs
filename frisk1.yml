@@ -10,5 +10,5 @@ searches:
     tags.app: postman
     tags.app: pass
 search_results: {}
-formula_temp: ({{index . "d1"}} / {{index . "d2"}}) * 2
+formula_temp: ({{index . "d1"}} * {{index . "d2"}}) * 2
 threshold: 2
